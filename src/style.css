@@ -1,0 +1,356 @@
+body {
+  background-color: black;
+}
+nav {
+  position: fixed;
+  top: 0%;
+  background-color: black;
+  width: 100%;
+}
+.line1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 50px;
+  margin-top: 30px;
+  position: sticky;
+  top: 0%;
+}
+.menu {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.logo {
+  width: 50px;
+  height: 40px;
+  margin-right: 10px;
+}
+.butimg {
+  width: 30px;
+  height: 30px;
+  vertical-align: middle;
+}
+.but1 {
+  background-color: rgb(22, 21, 21);
+  color: white;
+  border: 3px solid red;
+  border-radius: 5px;
+  padding: 5px 30px;
+  margin-top: 20px;
+}
+.but2 {
+  background-color: rgb(22, 21, 21);
+  color: white;
+  border: 3px solid;
+  border-radius: 5px;
+  padding: 5px 30px;
+  margin-top: -30px;
+}
+
+.but3 {
+  background-color: #ea002a;
+  color: white;
+  border: 3px solid #ea002a;
+  border-radius: 5px;
+  padding: 10px 10px;
+  margin-right: 50px;
+}
+
+.bucket {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+.naseem {
+  width: 100%;
+  height: 500px;
+  margin-top: 80px;
+}
+.but4 {
+  padding: 10px 250px;
+  margin-left: 400px;
+  color: white;
+  font-weight: bolder;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #ea002a;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+.explore {
+  color: white;
+  font-weight: bolder;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  margin-left: 90px;
+}
+hr {
+  width: 80px;
+  margin-left: 90px;
+  border-color: #ea002a;
+  margin-top: -15px;
+  border: 2px solid #ea002a;
+}
+.line2 {
+  display: flex;
+  margin-left: 110px;
+  margin-top: 80px;
+  margin-bottom: 50px;
+}
+.items {
+  width: 150px;
+  height: 150px;
+  margin-bottom: 10px;
+}
+.div4 {
+  border-radius: 100px 100px 10px 100px;
+  background-color: rgb(22, 21, 21);
+  padding: 0px 20px;
+}
+.itemtext {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  margin-top: -20px;
+  text-align: center;
+  padding: 10px 10px;
+  padding-left: 20px;
+  font-size: 15px;
+}
+.value {
+  width: 70px;
+  margin-left: 50px;
+  border-color: #ea002a;
+  margin-top: -15px;
+  height: bolder;
+  border: 2px solid #ea002a;
+}
+.div5 {
+  border-radius: 100px 100px 10px 100px;
+  background-color: rgb(22, 21, 21);
+  margin-left: 40px;
+  padding: 0px 20px;
+}
+.div6 {
+  border-radius: 100px 100px 10px 100px;
+  background-color: rgb(22, 21, 21);
+  margin-left: 40px;
+  padding: 0px 20px;
+}
+.div7 {
+  border-radius: 100px 100px 10px 100px;
+  background-color: rgb(22, 21, 21);
+  margin-left: 40px;
+  padding: 0px 20px;
+}
+.div8 {
+  border-radius: 100px 100px 10px 100px;
+  background-color: rgb(22, 21, 21);
+  margin-left: 40px;
+  padding: 0px 20px;
+}
+.seller {
+  width: 80px;
+  margin-left: 90px;
+  border-color: #ea002a;
+  margin-top: -15px;
+  border: 2px solid #ea002a;
+}
+.line3 {
+  display: flex;
+  margin-left: 90px;
+  margin-top: 20px;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  margin-right: 90px;
+  margin-bottom: 40px;
+}
+.box1 {
+  display: flex;
+  box-sizing: border-box;
+}
+.con {
+  background-color: rgb(22, 21, 21);
+  margin-right: 20px;
+  height: 350px;
+}
+.div9 {
+  background-color: #ea002a;
+  width: 20px;
+  height: 30px;
+  margin-right: 10px;
+  margin-left: 90px;
+}
+.div10 {
+  background-color: #ea002a;
+  width: 20px;
+  height: 30px;
+  margin-right: 10px;
+}
+.boximg {
+  width: 300px;
+  height: 270px;
+  margin-top: -40px;
+}
+.foodname {
+  margin-left: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+}
+.ribbon {
+  /* display: flex; */
+  height: 28px;
+  width: 100px;
+  color: white;
+  background-color: #ea002a;
+  margin-left: 200px;
+  -webkit-clip-path: polygon(
+    100% 0,
+    100% 50%,
+    100% 100%,
+    0% 100%,
+    11% 51%,
+    0% 0%
+  );
+  clip-path: polygon(100% 0, 100% 50%, 100% 100%, 0% 100%, 11% 51%, 0% 0%);
+}
+.price {
+  text-align: center;
+  font-weight: bolder;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 5px;
+}
+.line4 {
+  display: flex;
+  margin-left: 90px;
+  margin-top: 20px;
+  margin-right: 90px;
+  margin-bottom: 40px;
+}
+.con1 {
+  background-color: rgb(22, 21, 21);
+  margin-right: 20px;
+  height: 430px;
+  border-radius: 15px;
+}
+
+.dealitem {
+  width: 250px;
+  height: 250px;
+  margin-top: -20px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.dealtext {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  margin-left: 10px;
+}
+.dealpara {
+  color: white;
+  margin-left: 10px;
+  margin-top: -10px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 22px;
+  letter-spacing: -0.5px;
+}
+.dealbut:hover {
+  color: #ea002a;
+  background: white;
+  border: 1px solid white;
+}
+.dealbut {
+  background-color: #ea002a;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 900;
+  border: 1px solid #ea002a;
+  border-radius: 4px;
+  padding: 8px 7px;
+  margin-left: 50px;
+  letter-spacing: -0px;
+}
+.line5 {
+  display: flex;
+  margin-left: 100px;
+  margin-right: 90px;
+  margin-top: 90px;
+}
+.banner {
+  width: 550px;
+  height: 360px;
+  margin-right: 20px;
+  border-radius: 15px;
+}
+.banner3 {
+  width: 550px;
+  height: 340px;
+  margin-right: 20px;
+  border-radius: 15px;
+}
+.line6 {
+  display: flex;
+  margin-left: 100px;
+  margin-right: 90px;
+  margin-top: 20px;
+}
+.banner4 {
+  background-color: rgb(22, 21, 21);
+  border-radius: 15px;
+  width: 550px;
+  box-sizing: border-box;
+}
+.meal {
+  width: 270px;
+  height: 150px;
+  margin-left: 130px;
+}
+.mealpara {
+  text-align: center;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+a{
+  color: white;
+  text-decoration: none;
+}
+.mealbut {
+  background-color: #ea002a;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 9px;
+  margin-left: 150px;
+  padding: 15px 45px;
+  font-weight: 700;
+  font-size: 20px;
+}
+.last {
+  background-color: rgb(22, 21, 21);
+  margin-top: 40px;
+  width: 100%;
+}
+.lastlogo {
+  margin-left: 650px;
+  margin-top: 40px;
+}
+table {
+  color: white;
+}
+th:hover {
+  color: #ea002a;
+}
+th {
+  padding-left: 190px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 20px;
+  font-size: 20px;
+}
+.right {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 190px;
+}
